@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Kaisdakhli.porfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="./styles/App.css">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+.w3-third img{margin-bottom: -6px; opacity: 0.8; cursor: pointer}
+.w3-third img:hover{opacity: 1}
+</style>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<!-- Sidebar/menu -->
+<nav class="sidebar w3-sidebar w3-bar-block w3-white w3-animate-left w3-text-grey w3-collapse w3-top w3-center" style="z-index:3;width:350px;font-weight:bold" id="mySidebar"><br>
+    <img src="./images/foto.png" alt="Me" class="w3-image w3-padding-28" width="200" height="70">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-hide-large">CLOSE</a>
+  <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">PORTFOLIO</a> 
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT ME</a> 
+  <a href="#contactForm" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+  <a href="#devapps" onclick="w3_close()" class="w3-bar-item w3-button">DEV FRAMWORKS AND LIBRARIES</a>
+
+
+  <div class="social-media w3-panel w3-large">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <a href="  https://github.com/kdway"><i class="fa fa-github w3-hover-opacity"style="font-size:30px;color:red"></i></a>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <a href="http://www.linkedin.com/in/kais-dakhli-155246132"><i class="fa fa-linkedin w3-hover-opacity"style="font-size:30px;color:red"></i></a>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-white w3-xlarge w3-padding-16">
+  <span class="w3-left w3-padding">PERSONAL PORTFOLIO</span>
+  <a href="javascript:void(0)" class="w3-right w3-button w3-white" onclick="w3_open()">☰</a>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Push down content on small screens --> 
+  <div class="w3-hide-large" style="margin-top:83px"></div>
+  
+  <!-- Photo grid -->
+ 
+  <!-- Pagination -->
+>
+  
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+   
+    </div>
+  </div>
+
+  <!-- About section -->
+  <div class="w3-container w3-light w3-center w3-text-black w3-padding-32" id="about">
+    <h1><b>About Me</b></h1>
+
+    <div class="w3-content w3-justify" style="max-width:600px">
+      <h2><span style="color: rgb(3, 29, 29)">Kais DAKHLI</span></h2>
+      <h3 style="color: rgb(3, 29, 29)">mail: kaisdakhli@yahoo.fr</h3>
+      <h3 style="color: rgb(3, 29, 29)">tel: 52168516</h3>
+
+      <div class="cv-download-button">
+        <a href="
+        https://drive.google.com/file/d/1S_XBWWjcmYkx6riwZIFHkFBms_YRLIPS/view?usp=drive_link" download="Your_CV_Name.pdf">
+          <button class="cv-button-link bg-dark" style="padding:10px 20px;margin: 10px 10px ; font-size:16px; cursor:pointer;">Download Resume</button>
+        </a>
+      </div>
+      <p>Hello there! I'm Kais DAKHLI, a passionate and versatile professional with a unique blend of skills in IT Technical Support, Customer Service, and Full-stack Development. Here's a bit about my journey and what I bring to the table:
+         <h2>Technical Support Enthusiast</h2>
+        <p>I thrive in the dynamic world of IT Technical Support, where problem-solving
+           and a keen understanding of technology are crucial. I have hands-on experience in 
+           diagnosing and resolving technical issues, providing timely and effective solutions
+            to ensure smooth operations. My goal is to make technology work seamlessly for users,
+           enhancing their overall experience..</p>
+        <h2>Customer Service Excellence</h2>
+        <p>In my role as a Customer Service Representative, I've honed my communication skills and developed 
+          a customer-centric approach. I understand the importance of delivering exceptional service, building
+           positive relationships, and ensuring customer satisfaction.
+           I am committed to going above and beyond to meet and exceed customer expectations..</p>
+        <h2>Aspiring Full-stack Developer</h2>
+        <p>Eager to expand my horizons, I've embarked on a journey into the realm of Full-stack Development.
+           With a foundation in both front-end and back-end MERN and MENN technologies, I am well-versed in languages
+            such as HTML, CSS, JavaScript. My projects showcase my commitment to creating
+           responsive and user-friendly applications.</p>
+           <h2>Key Skills</h2>
+           <p>IT Technical Support: Troubleshooting, Problem Resolution, Network Configuration</p>
+           <p> Customer Service: Communication, Relationship Building, Issue Resolution</p>
+           <p>Full-stack Development: HTML, CSS, JavaScript Front-end and Back-end Technologies</p> 
+           
+        
+        <h2>Let's Connect</h2>
+        I am always eager to collaborate on exciting projects and explore new opportunities. Whether you need a technical support expert to enhance user experiences or a full-stack developer to bring your web applications to life, I am ready to contribute my skills and expertise.
+        
+        Let's connect and explore how we can create something amazing together!
+        
+        Feel free to customize the content to better reflect your unique experiences, skills, and personality. Adding specific examples or projects you've worked on can also make your portfolio section more engaging and compelling.      </p>
+
+      <hr class="w3-opacity">
+      <h4 class="w3-padding-16">Technical Skills</h4>
+      <p class="w3-wide">IT Technical Support</p>
+      <div class="w3-white">
+        <div class="w3-container w3-padding-small w3-center w3-grey" style="width:70%; color:darkslategray">70%</div>
+      </div>
+      <p class="w3-wide">Fullstack Js Developer</p>
+      <div class="w3-white">
+        <div class="w3-container w3-padding-small w3-center w3-grey" style="width:70%">70%</div>
+      </div>
+      <p class="w3-wide">Embedded System & Industrial automatic System</p>
+      <div class="w3-white">
+        <div class="w3-container w3-padding-small w3-center w3-grey" style="width:70%">70%</div>
+      </div>
+      <!--<p><button class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom">Download Resume</button></p>
+      <hr class="w3-opacity">-->
+   
+  
+
+   
+      </div>
+    </div>
+  </div>
+   
+
+
+  <!-- Contact section -->
+  <div class="w3-container w3-light-grey w3-padding-40 w3-padding-large" id="contactForm">
+    <div class="w3-content" style="max-width:600px">
+      <h4 class="w3-center"><b>Contact Me</b></h4>
+      <p>Do you want know mor  about me? Fill out the form and fill me in with the details :) I love meeting new people!</p>
+      <form action="database">
+        <div class="alert">Your message sent</div>
+
+        <div class="inputBox">
+            <input type="text" id="name" placeholder="Your name...." />
+        </div>
+
+        <div class="inputBox">
+            <input type="email" id="emailid" placeholder="Your Email....." />
+        </div>
+
+        <div class="inputBox">
+            <textarea id="msgContent" cols="30" rows="10" placeholder="Message"></textarea>
+        </div>
+
+        <div class="inputBox">
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+    </div>
+  </div>
+
+
+   <!--Projects-->
+
+   <div class="framworks" id="devapps">
+  <h3>FRAMWORKS AND LIBRARIES TECHNOLOGIES</h3>
+  <div class="framworks-icons">
+    <img class="java" src="./images/javascript.png" alt="javasript prgramm language">
+    <img src="./images/html-pic.png" alt="javasript prgramm language">
+    <img src="./images/js-pic.jpg" alt="javasript prgramm language">
+    <img src="./images/git-pic.jpg" alt="javasript prgramm language">
+    <img src="./images/react.jpg" alt="javasript prgramm language">
+    <img src="./images/node.jpg" alt="javasript prgramm language">
+    
+  </div>
+
+</div>
+
+
+<script>
+
+
+   
+
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+</script>
+
+
+</body>
+</html>
